@@ -76,7 +76,10 @@ i {
     width: 48px;
     height: 48px;
     text-align: center;
-    /*margin: 0;*/
+    border: 3px solid white;
+   padding-top: 8px;
+    padding-bottom: 12px;
+    border-radius: 100%;
 }
 
 footer nav {
@@ -88,13 +91,5 @@ footer nav {
 }
 
 footer nav ul {
-    border: 2px solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
-/*ul i::before {*/
-/*    align-self: center;*/
-/*    justify-self: center;*/
-/*}*/
