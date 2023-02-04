@@ -84,7 +84,7 @@ i {
     height: 48px;
     text-align: center;
     border: 3px solid white;
-   padding-top: 8px;
+    padding-top: 8px;
     padding-bottom: 12px;
     border-radius: 100%;
 }
@@ -102,6 +102,23 @@ footer nav {
     right: 64px;
 }
 
-footer nav ul {
+@media (max-width: 425px) {
+    main {
+        background: image("/images/bg-mobile.svg");
+        background-size: cover;
+
+        height: auto;
+        width: auto;
+    }
+
+    .hero_section {
+        flex-direction: column;
+        width: 100vw;
+        margin: auto;
+    }
+
+    .action_area {
+        width: 100vw;
+    }
 
 }
