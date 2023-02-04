@@ -15,7 +15,7 @@ body {
     background: var(--violet);
 
     /*font-family: 'Open Sans', sans-serif;*/
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
 }
 
 main {
@@ -50,7 +50,7 @@ button.btn {
     font-weight: 400;
     border-radius: 32px;
     border: none;
-    box-shadow: 2px 2px 4px #2f2f2f;
+    box-shadow: 4px 4px 10px #2f2f2f;
 }
 
 .build_title {
@@ -68,3 +68,33 @@ button.btn {
     font-size: 1rem;
     margin-bottom: 32px;
 }
+
+i {
+    font-family: 'FontAwesome' !important;
+    color: white;
+    font-size: 2rem;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    /*margin: 0;*/
+}
+
+footer nav {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    gap: 28px;
+    right: 64px;
+}
+
+footer nav ul {
+    border: 2px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*ul i::before {*/
+/*    align-self: center;*/
+/*    justify-self: center;*/
+/*}*/
